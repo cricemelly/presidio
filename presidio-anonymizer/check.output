@@ -1,0 +1,22 @@
+new check
+origin	git@github.com:cricemelly/presidio.git (fetch)
+origin	git@github.com:cricemelly/presidio.git (push)
+0
+text: My name is BIP,BIP
+items:
+[
+    {'start': 15, 'end': 18, 'entity_type': 'PERSON', 'text': 'BIP', 'operator': 'replace'},
+    {'start': 11, 'end': 14, 'entity_type': 'PERSON', 'text': 'BIP', 'operator': 'replace'}
+]
+
+new check
+origin	git@github.com:cricemelly/presidio.git (fetch)
+origin	git@github.com:cricemelly/presidio.git (push)
+0
+text: My name is cricemelly, cricemelly
+items:
+[
+    {'start': 17, 'end': 28, 'entity_type': 'PERSON', 'text': 'elly, crice', 'operator': 'keep'},
+    {'start': 11, 'end': 16, 'entity_type': 'PERSON', 'text': 'crice', 'operator': 'keep'}
+]
+
